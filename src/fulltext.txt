@@ -1,0 +1,41 @@
+## Bing
+I'll try to create that. Here is a mockup of a website for Al Dente:
+Al Dente
+Authentic Italian Pasta
+a logo for the menu of Al Dente
+Welcome to Al Dente, the best place to enjoy authentic Italian pasta in Roma. We are a family-owned restaurant that serves fresh and delicious pasta dishes made with high-quality ingredients and traditional recipes. Whether you are looking for a quick lunch, a romantic dinner or a celebration with friends, we have something for everyone. Come and taste our spaghetti carbonara, our lasagna, our cacio e pepe and more. You will also love our homemade desserts, such as our tiramisu and our gelato. We look forward to seeing you soon at Al Dente!
+Menu
+Antipasti
+ - Bruschetta al pomodoro: Toasted bread topped with fresh tomatoes, basil and garlic. €5
+ - Caprese: Fresh mozzarella, tomatoes and basil drizzled with olive oil and balsamic vinegar. €7
+
+Primi
+ - Spaghetti carbonara: Spaghetti tossed with eggs, bacon, cheese and black pepper. €10
+ - Fettuccine alfredo: Fettuccine in a creamy sauce with butter and parmesan cheese. €9
+ - Pasta alla norma: Penne with roasted aubergine, tomato sauce and ricotta cheese. €8
+ - Lasagna: Layers of pasta, meat sauce, béchamel and cheese baked in the oven. €12
+ - Cacio e pepe: Spaghetti with cheese and pepper. €7
+
+Secondi
+ - Pollo alla cacciatora: Chicken braised with tomatoes, mushrooms, olives and herbs. €14
+ - Melanzane alla parmigiana: Baked aubergine with tomato sauce, mozzarella and parmesan cheese. €13
+
+Contorni
+ - Insalata mista: Mixed salad with lettuce, tomatoes, cucumbers and carrots. €4
+ - Patate al forno: Roasted potatoes with rosemary and garlic. €5
+
+Contact Us
+Al Dente
+Via dei Fiori, 12
+00123 Roma
+Tel: 06 12345678
+Email: &#97;&#108;&#46;&#x64;&#x65;&#x6e;&#x74;&#x65;&#x40;&#x70;&#97;&#x73;&#116;&#97;&#46;&#105;&#116;
+We are open from Monday to Saturday from 12:00 to 15:00 and from 18:00 to 23:00. We are closed on Sundays.
+You can make a reservation by phone or email, or just walk in.
+We accept cash and credit cards.
+How to Find Us
+a how to find us map in a realistic fictional city for Al Dente
+We are located in the heart of Roma, near the Piazza Navona. You can easily reach us by public transport or by car.
+By bus: Take the bus number 64 or 70 and get off at the stop Corso Vittorio Emanuele II/Navona.
+By metro: Take the metro line A and get off at the station Spagna. Then walk for about 15 minutes along Via del Corso until you reach Via dei Fiori.
+By car: You can park your car in the nearby parking garage in Via di Sant'Agostino. The parking fee is €2 per hour.
