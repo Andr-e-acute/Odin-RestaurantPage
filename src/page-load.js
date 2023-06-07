@@ -11,6 +11,7 @@ function createHeader() {
     const button = document.createElement(`button`);
     // todo do I use the Id anywhere
     button.id = `${element.toLowerCase()}-button`;
+    button.dataset.target=`${element}`
     button.textContent = element;
     navbar.appendChild(button);
   });
