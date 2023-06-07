@@ -2,30 +2,31 @@
 
 :root {
   --background-color: black;
-  --background-color-lighter: gray;
+  --background-color-lighter: rgba(91, 90, 90, 0.513);
+  --contrast-color: gray;
   --font-color: white;
   --font-family-logo: "Great Vibes", cursive;
   --font-family: sans-serif;
-  --parting-line:2px solid rgba(155, 155, 155, 0.622);
+  --parting-line: 2px solid rgba(155, 155, 155, 0.622);
 }
 *::before,
 *::after {
   box-sizing: border-box;
   padding: 0;
   margin: 0px;
-  color: red;
 }
 body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: var(--background-color);
 }
 #content {
-  min-height: 100vh;
+  height: 100vh;
   display: grid;
-  grid-template-rows: 2fr 14fr 1fr;
-  color: var(--font-color);
-  background-color: var(--background-color);
+  grid-template-rows: 1.5fr 14fr 1fr;
+color: var(--font-color);
+
 }
 
 #header {
@@ -33,21 +34,21 @@ body {
   justify-content: space-between;
   align-items: stretch;
   flex-wrap: wrap;
-  
- 
+
   border-bottom: var(--parting-line);
 }
- h1 {
+h1 {
   font-family: var(--font-family-logo);
   font-size: 3rem;
-  letter-spacing: .6rem;
+  letter-spacing: 0.6rem;
   padding-left: 30px;
   margin: auto 0;
 }
 #header > nav {
-    display: flex;
+  display: flex;
 }
 #header > nav button {
+  padding: 20px;
   font-size: 1.5rem;
   border: none;
   border-left: var(--parting-line);
@@ -55,18 +56,63 @@ body {
   font-style: var(--font-family);
   color: inherit;
 }
-#header button.active{
-    background-color: var(--background-color-lighter);
-    font-weight: bold;
-    font-size: 1.8rem;
-    height: 120%;
-    overflow: visible;
-    z-index: 1;
-    border-radius: 0 0 20px 0;
+#header > nav button:hover {
+  font-size: 1.8rem;
+}
+#header button.active {
+  background-color: var(--contrast-color);
+  font-weight: bold;
+  font-size: 1.8rem;
+  height: 120%;
+  overflow: visible;
+  z-index: 1;
+  border-radius: 0 0 20px 0;
 }
 
-#home {
+main {
   background: url(./images/background-darkl.jpg);
   background-size: cover;
   background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home {
+  background-color: var(--background-color-lighter);
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0 10px 0;
+  padding: 0px 10px;
+  height: min-content;
+}
+#home p {
+
+    margin: 1rem;
+  font-size: 1.8rem;
+  text-align: center;
+}
+#home > img {
+  width: min(30vw, 250px);
+  border-radius: 50%;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+footer *{
+    color: var(--font-color);
+    text-decoration: none;
+    margin: 5px;
+    
+}
+footer a:hover{
+    transform: scale(1.2);
+    background-color: var(--background-color-lighter);
 }
