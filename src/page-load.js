@@ -1,5 +1,5 @@
 function createHeader() {
-  const navElements = ["Home", "Menu", "Content"];
+  const navElements = ["Home", "Menu", "Contact"];
   const header = document.createElement("header");
   header.id = "header";
 

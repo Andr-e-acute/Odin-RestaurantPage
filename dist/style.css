@@ -25,8 +25,7 @@ body {
   height: 100vh;
   display: grid;
   grid-template-rows: 1.5fr 14fr 1fr;
-color: var(--font-color);
-
+  color: var(--font-color);
 }
 
 #header {
@@ -57,9 +56,14 @@ h1 {
   color: inherit;
 }
 #header > nav button:hover {
-  font-size: 1.8rem;
+  background-color: var(--background-color-lighter);
+  height: 120%;
+  overflow: visible;
+  z-index: 1;
+  border-radius: 0 0 20px 0;
 }
-#header button.active {
+#header button.active,
+#header button.active:hover {
   background-color: var(--contrast-color);
   font-weight: bold;
   font-size: 1.8rem;
@@ -89,8 +93,7 @@ main {
   height: min-content;
 }
 #home p {
-
-    margin: 1rem;
+  margin: 1rem;
   font-size: 1.8rem;
   text-align: center;
 }
@@ -99,20 +102,18 @@ main {
   border-radius: 50%;
 }
 
-footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-footer *{
-    color: var(--font-color);
-    text-decoration: none;
-    margin: 5px;
-    
+footer * {
+  color: var(--font-color);
+  text-decoration: none;
+  margin: 5px;
 }
-footer a:hover{
-    transform: scale(1.2);
-    background-color: var(--background-color-lighter);
+footer a:hover {
+  transform: scale(1.2);
+  background-color: var(--background-color-lighter);
 }
