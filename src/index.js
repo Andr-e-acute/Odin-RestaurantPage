@@ -11,7 +11,6 @@ const main =document.querySelector("main")
 // tab switching logic
 const tabs = document.querySelectorAll("nav button");
 // first time load set home-page active
-    // the right place would be page-load/? need to try it out later.....
 setActive(document.querySelector("#menu-button"))
 
 tabs.forEach((tab) => {
@@ -33,7 +32,7 @@ console.log(clickedButton)
   });
 }
 function chooseContent(choice) {
-    // reset and append content here oder for every file itself?
+    // reset and append 
      main.textContent="";
 
   switch (choice) {

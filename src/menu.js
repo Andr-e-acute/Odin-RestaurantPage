@@ -23,7 +23,7 @@ function createMenu() {
     });
 
     dishesContainer.appendChild(categoryContainer);
-    menu.appendChild(dishesContainer)
+    menu.appendChild(dishesContainer);
   });
   return menu;
 }

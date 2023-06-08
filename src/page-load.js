@@ -9,9 +9,8 @@ function createHeader() {
   const navbar = document.createElement("nav");
   navElements.forEach((element) => {
     const button = document.createElement(`button`);
-    // todo do I use the Id anywhere
     button.id = `${element.toLowerCase()}-button`;
-    button.dataset.target=`${element}`
+    button.dataset.target = `${element}`;
     button.textContent = element;
     navbar.appendChild(button);
   });
@@ -26,16 +25,15 @@ function createFooter() {
   p.textContent = "Copyright © 2023";
   const link = document.createElement("a");
   link.href = "https://github.com/Andr-e-acute/Odin-RestaurantPage";
-  link.textContent="GitHubPage"
+  link.textContent = "GitHubPage";
   footer.appendChild(p);
-  footer.appendChild(link)
+  footer.appendChild(link);
   return footer;
 }
 function createPage() {
   const content = document.querySelector("#content");
-  // reset page to blank do i need it?
+  // reset page to blank
   content.textContent = "";
-
   content.appendChild(createHeader());
   content.appendChild(document.createElement("main"));
   content.appendChild(createFooter());
