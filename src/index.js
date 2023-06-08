@@ -12,7 +12,7 @@ const main =document.querySelector("main")
 const tabs = document.querySelectorAll("nav button");
 // first time load set home-page active
     // the right place would be page-load/? need to try it out later.....
-setActive(document.querySelector("#contact-button"))
+setActive(document.querySelector("#menu-button"))
 
 tabs.forEach((tab) => {
   tab.addEventListener("click", (e) => {
@@ -41,7 +41,7 @@ function chooseContent(choice) {
       main.appendChild(createHome());
       break;
     case "Menu":
-      createMenu();
+      main.appendChild(createMenu());
       break;
     case "Contact":
       main.appendChild(createContact());
