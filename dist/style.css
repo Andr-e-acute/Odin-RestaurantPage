@@ -5,6 +5,8 @@
   --background-color-lighter: rgba(91, 90, 90, 0.513);
   --contrast-color: gray;
   --font-color: white;
+  --font-contrast:orange;
+
   --font-family-logo: "Great Vibes", cursive;
   --font-family: sans-serif;
   --parting-line: 2px solid rgba(155, 155, 155, 0.622);
@@ -80,17 +82,17 @@ main {
   background-attachment: fixed;
   display: flex;
   justify-content: center;
-  align-items: start
+  align-items: start;
 }
 
-main>* {
+main > * {
   max-width: 70vw;
   background-color: var(--background-color-lighter);
   border-radius: 2px;
   display: flex;
   flex-direction: column;
   align-items: center;
- 
+
   margin: 50px 0 10px 0;
   padding: 0px 10px;
   height: min-content;
@@ -101,22 +103,54 @@ main>* {
   text-align: center;
 }
 #home > img {
- 
   width: min(30vw, 250px);
   border-radius: 50%;
 }
-#contact{
+#menu > #dishesContainer {
   
-  align-items: flex-start;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3,1fr);
 }
-#contact p{
-  margin: 0 1rem;
-  font-size:1.4rem;
+#menu #primi{
+  grid-column: 2/3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+#menu h3{
+  color: var(--font-contrast);
+  background-color: black;
 }
 
-#contact >img{
+#menu .foodContainer{
+  display: grid;
+  align-items: baseline;
+  justify-content: space-between;
+  grid-template-columns: 8fr 1fr;
+}
+.foodContainer h4{
+  margin: 0;
+  font-size:1.2rem;
+}
+.foodContainer div{
+ 
+  font-size:1.4rem;
+}
+.foodContainer p{
+  max-width: 30ch;
+}
+#contact {
+  align-items: flex-start;
+}
+#contact p {
+  margin: 0 1rem;
+  font-size: 1.4rem;
+}
+
+#contact > img {
   padding: 10px;
-  margin:auto;
+  margin: auto;
   width: min(60vw, 500px);
 }
 
