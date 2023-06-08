@@ -20,7 +20,7 @@ tabs.forEach((tab) => {
   });
 });
 function setActive(clickedButton) {
-console.log(clickedButton)
+// console.log(clickedButton)
   clickedButton.classList.add("active");
        
   chooseContent(clickedButton.dataset.target);
