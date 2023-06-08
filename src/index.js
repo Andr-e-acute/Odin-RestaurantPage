@@ -11,7 +11,7 @@ const main =document.querySelector("main")
 // tab switching logic
 const tabs = document.querySelectorAll("nav button");
 // first time load set home-page active
-setActive(document.querySelector("#menu-button"))
+setActive(document.querySelector("#home-button"))
 
 tabs.forEach((tab) => {
   tab.addEventListener("click", (e) => {
