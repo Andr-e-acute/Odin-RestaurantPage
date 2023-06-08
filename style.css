@@ -5,7 +5,7 @@
   --background-color-lighter: rgba(91, 90, 90, 0.513);
   --contrast-color: gray;
   --font-color: white;
-  --font-contrast:orange;
+  --font-contrast: orange;
 
   --font-family-logo: "Great Vibes", cursive;
   --font-family: sans-serif;
@@ -83,6 +83,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: start;
+  overflow: auto;
 }
 
 main > * {
@@ -106,38 +107,49 @@ main > * {
   width: min(30vw, 250px);
   border-radius: 50%;
 }
+
 #menu > #dishesContainer {
-  
+  width: 70vw;
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3,1fr);
+  grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+ 
 }
-#menu #primi{
+#menu #primi {
   grid-column: 2/3;
   grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row-end: 3; 
 }
-#menu h3{
+@media (max-width: 800px) {
+  #menu #primi {
+    grid-column: 1/2;
+  }
+}
+@media (max-width: 600px) {
+  main > * {
+    width: 100vw;
+max-width: none;
+  }
+}
+#menu h3 {
   color: var(--font-contrast);
   background-color: black;
 }
 
-#menu .foodContainer{
+#menu .foodContainer {
   display: grid;
   align-items: baseline;
   justify-content: space-between;
   grid-template-columns: 8fr 1fr;
 }
-.foodContainer h4{
+.foodContainer h4 {
   margin: 0;
-  font-size:1.2rem;
+  font-size: 1.2rem;
 }
-.foodContainer div{
- 
-  font-size:1.4rem;
+.foodContainer div {
+  font-size: 1.4rem;
 }
-.foodContainer p{
+.foodContainer p {
   max-width: 30ch;
 }
 #contact {
